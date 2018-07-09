@@ -19,6 +19,6 @@
     </a>
 </center>
 
-Sweet [Vapor tutorial by Martin Lasek][tutorial] on how to write controllers in Vapor3
+Sweet [Vapor tutorial by Martin Lasek][tutorial] on how to write CRUD ops using leaf in Vapor3
 
-[tutorial]: https://medium.com/@martinlasek/tutorial-how-to-write-controllers-47b5fd9a65c6
+[tutorial]: https://medium.com/@martinlasek/tutorial-how-to-write-crud-using-leaf-4d7dbae0979c
