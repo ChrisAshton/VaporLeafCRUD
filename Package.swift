@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "VaporController", // changed
+    name: "VaporLeafCRUD", // changed
     dependencies: [
         // 💧 A server-side Swift web framework.
         .package(url: "https://github.com/vapor/vapor.git", from: "3.0.5"),
@@ -19,4 +19,3 @@ let package = Package(
         .testTarget(name: "AppTests", dependencies: ["App"])
     ]
 )
-
