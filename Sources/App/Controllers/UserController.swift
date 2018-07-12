@@ -32,7 +32,7 @@ final class UserController {
                 user.username = userForm.username
                 print(user.id!)
                 return user.save(on: req).map { _ in
-                    return req.redirect(to: "/users")
+                    return req.redirect(to: "/users") // A token can be tacked on to the path as a parameter
                 }
             }
         }
